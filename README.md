@@ -1,5 +1,5 @@
-# Entities-Relation-Extraction-using-LinearSVM
-Entities Relation Extraction using LinearSVM
+# NLP : Classifying Semantic Relation between Entities using LinearSVM
+It presents a computational linguistics approach for extraction of entity relations. First, data preprocessing and cleaning is performed on our dataset. After preprocessing, relevant features are extracted for each of the entities. These features include word tokens, word prefixes, shortest paths between root and entities, hypernyms, part of speech tags, and more relevant information that helps the machine better understand the sentence. A feature vector extraction method is used to create our input to our machine learning model. We apply a Linear Support Vector Machine (SVM) to build our model. Finally, we test this model using unseen entities and evaluate our model based on metrics such as f-score, precision, recall, and accuracy. We found our model predicted relations with an accuracy of 75.5% and F1 score of 77%.
 
  
 Features:
